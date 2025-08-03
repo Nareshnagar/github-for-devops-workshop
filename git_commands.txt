@@ -1,0 +1,21 @@
+git config --global user.name "Naresh Nagar"
+git config --global user.email "nareshofficial2002@gmail.com"
+git init
+ git add .
+ git status
+ git commit -m "added test files"
+   git status
+   rm test.py
+   git status
+  restore test.py
+  git restore test.py
+  git status
+  git remote add origin https://github.com/Nareshnagar/github-for-devops-workshop.git
+  git remote -v
+  git remote set-url origin https://github.com/Nareshnagar/github-for-devops-workshop.git
+  git push origin master
+mkdir git-demo-new
+ls
+cd git-demo-new
+ls
+git clone https://github.com/Nareshnagar/devops-on-aws.git
